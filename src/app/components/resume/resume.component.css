@@ -1,5 +1,5 @@
-@font-face { font-family: open-sans; src: url(../../../assets/font/opensans-reg.ttf) }
-@font-face { font-family: saira-ec; src: url(../../../assets/font/saira-extra-cond-reg.ttf) }
+@font-face { font-family: open-sans; src: url(../../../assets/fonts/opensans-reg.ttf) }
+@font-face { font-family: saira-ec; src: url(../../../assets/fonts/saira-extra-cond-reg.ttf) }
 
 .resume-wrapper {
   font-family: 'Segoe UI', sans-serif;
@@ -237,13 +237,61 @@ ul {
 }
 
 /* Responsive Design Media Queries ---------------------------------- */
-@media screen and (min-width: 800px) and (min-height: 945px) {
+
+/* Monitor - No Bookmarks Bar */
+@media screen and (min-width: 1800px) and (min-height: 938px) {
   .about-content { top: 32vh; }
-  .education-content { top: 30vh; }
-  .skills-content { top: 30vh; }
-  .interests-content { top: 30vh; }
-  .awards-content { top: 30vh; }
+  .education-content { top: 30.5vh; }
+  .skills-content { top: 30.5vh; }
+  .interests-content { top: 30.5vh; }
+  .awards-content { top: 30.5vh; }
 }
+
+/* Monitor - Fullscreen */
+@media screen and (min-width: 1800px) and (min-height: 1000px) {
+  .about-content { top: 34vh; }
+  .education-content { top: 32vh; }
+  .skills-content { top: 32vh; }
+  .interests-content { top: 32vh; }
+  .awards-content { top: 32vh; }
+}
+
+/* Laptop - Bookmarks Bar */
+@media screen and (max-width: 1800px) {
+  .about-content { top: 26vh; }
+  .education-content { top: 24vh; }
+  .skills-content { top: 24vh; }
+  .interests-content { top: 24vh; }
+  .awards-content { top: 24vh; }
+}
+
+/* Laptop - No Bookmarks Bar */
+@media screen and (min-width: 1300px) and (max-width: 1799px) and (min-height: 760px) {
+}
+
+/* Laptop - Fullscreen */
+@media screen and (min-width: 1300px) and (max-width: 1799px) and (min-height: 800px) {
+  .about-content { top: 30vh; }
+  .education-content { top: 26vh; }
+  .skills-content { top: 26vh; }
+  .interests-content { top: 26vh; }
+  .awards-content { top: 26vh; }
+}
+
+/* Laptop - 1366 x 768 - Bookmarks Bar */
+@media screen and (width: 1366px) {
+
+}
+
+/* Laptop - 1366 x 768 - No Bookmarks Bar */
+@media screen and (width: 1366px) and (min-height: 720px) {
+}
+
+/* Laptop - 1366 x 768 - Fullscreen */
+@media screen and (width: 1366px) and (min-height: 759px) {
+  .wrapper { overflow-x: hidden; }
+}
+
 @media screen and (min-width: 800px) and (min-height: 901px) and (max-height: 944px) {
   .about-content { top: 31vh; }
   .education-content { top: 30vh; }
@@ -369,6 +417,11 @@ ul {
 /* iPad */
 @media screen and (min-width: 650px) and (max-width: 768px) {
   .text-logo { left: 41%; }
+  .align { text-align: left !important; }
+  .item-wrapper { display: block; margin-bottom: 5vh; }
+  .item { width: 100%; }
+  .item-subtitle { font-size: 1.7rem; }
+  .item-right { width: 100%; }
 }
 
 /* Large Smartphone (Vertical) */

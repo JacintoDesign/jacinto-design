@@ -6,34 +6,35 @@
 
     <!-- Video Background -->
     <video loop muted autoplay id="video-background">
-      <source src="../assets/img/video-background.mp4" type="video/mp4">
+      <source src="../assets/img/lines.mp4" type="video/mp4">
     </video>
     <div class="video-overlay"></div>
 
     <!-- Main Title -->
-    <h1 class="main-title">Your Title Here</h1>
+    <h1 class="main-title">Jacinto<span class="custom-spacing"><span class="mobile-main-title"><br></span>Design</span></h1>
 
     <!-- Social Icons -->
     <div class="social-icons">
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'github']" title="Github"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'codepen']" title="Codepen"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'linkedin']" title="Linkedin"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'medium']" title="Medium"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'instagram']" title="Instragram"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'youtube']" title="Youtube"></fa-icon></a>
+      <a href="https://github.com/JacintoDesign" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'github']" style="margin-left: 0;" title="Github"></fa-icon></a>
+      <a href="https://codepen.io/jacintodesign/" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'codepen']" title="Codepen"></fa-icon></a>
+      <a href="https://www.linkedin.com/in/jacintowong/" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'linkedin']" title="LinkedIn"></fa-icon></a>
+      <a href="https://medium.com/@jacintowong" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'medium']" title="Medium"></fa-icon></a>
+      <a href="https://www.instagram.com/mynameisjacinto/" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'instagram']" title="Instagram"></fa-icon></a>
+      <a href="https://www.youtube.com/user/mynameisjacinto" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'youtube']" title="Youtube"></fa-icon></a>
     </div>
   </section>
   <!-- About Section --------------------------------->
   <div class="background">
     <section id="about">
       <div class="card">
-        <img src="../assets/img/jacinto-wong.jpg" alt="Picture of Me" class="about-img">
+        <img src="../assets/img/neon-logo.png" alt="Jacinto Design Logo" class="about-img">
         <div class="card-body">
-          <h1 class="card-title">About</h1>
+          <h1 class="card-title"></h1>
           <p class="card-text">Built on the three pillars of modern web development, you will see the difference with Jacinto Design. Projects are created to be responsive, fast, and concise. My multi-disciplinary background ensures a unique approach to design. I believe that with the proper branding, aesthetics, and UI anyone can stand out with a quality web app that will attract more than a passing glance.</p>
           <a routerLink="/resume" routerLinkActive="active" (click)="scrollToTop()">
-            <div class="card-button">View Resume</div>
+            <div class="card-button" id="resume-button">View Resume</div>
           </a>
+          <div class="spacer"></div>
         </div>
       </div>
     </section>
@@ -45,93 +46,86 @@
       <div class="project-group-1">
         <article class="project-item">
           <div class="project-img">
-            <a href="https://jacinto.design"><img src="../assets/img/project-1.png" alt="Project"></a>
+            <a href="#" title="Jacinto Design"><img src="../assets/img/projects/jacintodesign-s8.png" alt="Jacinto Design"></a>
           </div>
           <div class="project-caption">
-            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
-            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+            <h4 class="project-title"><a href="#">Jacinto Design</a></h4>
+            <h6 class="github-link"><a href="https://github.com/JacintoDesign/jacinto-design-pwa" title="View Github Repository">Github</a></h6>
           </div>
         </article>
         <article class="project-item">
           <div class="project-img">
-            <a href="https://jacinto.design"><img src="../assets/img/project-1.png" alt="Project"></a>
+            <a href="https://falconbeer.beer/" title="Falcon Brewery"><img src="../assets/img/projects/falcon-s8-alt.png" alt="Falcon Brewery"></a>
           </div>
           <div class="project-caption">
-            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
-            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+            <h4 class="project-title"><a href="https://falconbeer.beer/">Falcon Brewery</a></h4>
+            <h6 class="github-link"><a href="https://github.com/JacintoDesign/falcon-brewery" title="View Github Repository">Github</a></h6>
           </div>
         </article>
         <article class="project-item">
           <div class="project-img">
-            <a href="https://jacinto.design"><img src="../assets/img/project-1.png" alt="Project"></a>
+            <a href="https://smart-brain--app.herokuapp.com/" title="SmartBrain App"><img src="../assets/img/projects/smartbrain-s8.png" alt="SmartBrain App"></a>
           </div>
           <div class="project-caption">
-            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
-            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+            <h4 class="project-title"><a href="https://smart-brain--app.herokuapp.com/">SmartBrain App</a></h4>
+            <h6 class="github-link"><a href="https://github.com/JacintoDesign/smart-brain-api/" title="View Github Repository">Github</a></h6>
           </div>
         </article>
       </div>
       <div class="project-group-2">
         <article class="project-item">
           <div class="project-img">
-            <a href="https://jacinto.design"><img src="../assets/img/project-1.png" alt="Project"></a>
+            <a href="https://jacinto.design/quote/" title="Quote Generator"><img src="../assets/img/projects/quote-s8.png" alt="Quote Generator"></a>
           </div>
           <div class="project-caption">
-            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
-            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+            <h4 class="project-title"><a href="https://jacinto.design/quote/">Quote Generator</a></h4>
+            <h6 class="github-link"><a href="https://github.com/JacintoDesign/quotegenerator/" title="View Github Repository">Github</a></h6>
           </div>
-        </article>
+        </article> 
         <article class="project-item">
           <div class="project-img">
-            <a href="https://jacinto.design"><img src="../assets/img/project-1.png" alt="Project"></a>
+            <a href="https://jacinto.design/thriving-cities/" title="Thriving Cities"><img src="../assets/img/projects/thriving-cities-s8.png" alt="Thriving Cities"></a>
           </div>
           <div class="project-caption">
-            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
-            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+            <h4 class="project-title"><a href="https://jacinto.design/thriving-cities/">Thriving Cities</a></h4>
+            <h6 class="github-link"><a href="https://github.com/JacintoDesign/coding-challenge-5/" title="View Github Repository">Github</a></h6>
           </div>
-        </article>
+        </article>       
         <article class="project-item">
           <div class="project-img">
-            <a href="https://jacinto.design"><img src="../assets/img/project-1.png" alt="Project"></a>
+            <a href="https://jacinto.design/swiper/" title="Codepen Swiper"><img src="../assets/img/projects/codepen-s8.png" alt="Codepen Swiper"></a>
           </div>
           <div class="project-caption">
-            <h4 class="project-title"><a href="https://jacinto.design">Project Title</a></h4>
-            <h6 class="github-link"><a href="https://github.com" title="View Github Repository">Github</a></h6>
+            <h4 class="project-title"><a href="https://jacinto.design/swiper/">Codepen Swiper</a></h4>
+            <h6 class="github-link"><a href="https://github.com/JacintoDesign/swiper/" title="View Github Repository">Github</a></h6>
           </div>
         </article>
       </div>
     </div>
   </section>
   <!-- Contact Section ------------------------------->
-  <div class="background">
-    <section id="contact">
+  <section id="contact">
 
-      <!-- Mail to Link -->
-      <a href="mailto:your@email.address" class="contact-mail" target="_blank" rel="noopener">
-        contact<span class="red">@</span>your.email
-      </a>
-  
-      <!-- Video Background -->
-      <video loop muted autoplay id="video-background-2">
-        <source src="../assets/img/video-game-background.mp4" type="video/mp4">
-      </video>
+    <!-- Mail to Link -->
+    <a href="mailto:contact@jacinto.design" class="contact-mail" target="_blank" rel="noopener">
+      contact<span class="red">@</span>jacinto.design
+    </a>
 
-      <!-- Business Card Mockup -->
-      <!-- <a href="mailto:your@email.address" target="_blank" rel="noopener" title="Click to Send Email">
-        <img src="../assets/img/business-card-mockup.png" alt="Business Cards" class="business-card">
-      </a>  -->
-  
-    </section>
-  </div>
+    <!-- Video Background -->
+    <video loop muted autoplay id="video-background-2">
+      <source src="../assets/img/rings.m4v" type="video/mp4">
+    </video>
+
+  </section>
   <!-- Footer Section -------------------------------->
   <section id="footer">
     <div class="footer-icons">
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'github']" title="Github" style="margin-left: 0;"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'codepen']" title="Codepen"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'linkedin']" title="Linkedin"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'medium']" title="Medium"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'instagram']" title="Instragram"></fa-icon></a>
-      <a href="" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'youtube']" title="Youtube"></fa-icon></a>
+      <a href="https://github.com/JacintoDesign" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'github']" style="margin-left: 0;" title="Github"></fa-icon></a>
+      <a href="https://codepen.io/jacintodesign/" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'codepen']" title="Codepen"></fa-icon></a>
+      <a href="https://www.linkedin.com/in/jacintowong/" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'linkedin']" title="LinkedIn"></fa-icon></a>
+      <a href="https://medium.com/@jacintowong" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'medium']" title="Medium"></fa-icon></a>
+      <a href="https://www.instagram.com/mynameisjacinto/" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'instagram']" title="Instagram"></fa-icon></a>
+      <a href="https://www.youtube.com/user/mynameisjacinto" target="_blank" rel="noopener"><fa-icon [icon]="['fab', 'youtube']" title="Youtube"></fa-icon></a>
       <p class="footer-text">Jacinto Design - 2019</p>
     </div>
   </section>

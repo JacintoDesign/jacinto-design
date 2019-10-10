@@ -3,7 +3,7 @@ a, li { text-decoration: none; }
 .display-none { display: none; }
 #menu-bars { display: none; }
 #mobile-nav { display: none; }
-@font-face { font-family: webly; src: url(../../../assets/font/webly.ttf)}
+@font-face { font-family: webly; src: url(../../../assets/fonts/segoe.ttf)}
 
 /* Sidebar */
 .sidebar-container {
@@ -29,6 +29,7 @@ a, li { text-decoration: none; }
     z-index: 10;
     list-style: none;
     font-size: 3rem;
+    top: -8px; 
 }
 .sidebar-items li {
     text-transform: uppercase;
@@ -48,7 +49,7 @@ a, li { text-decoration: none; }
 
 @media screen and (max-width: 1800px) {
     .sidebar-toggle { margin: 20px; }
-    .sidebar-items { left: -20px; top: -28px; font-size: 2.75rem; }
+    .sidebar-items { left: -20px; top: -24px; font-size: 2.75rem; }
 }
 
 /* ---------- Media Queries ----------- */

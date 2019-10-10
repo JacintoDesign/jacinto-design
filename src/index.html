@@ -2,25 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Portfolio Project</title>
+  <title>Jacinto Design</title>
   <base href="/">
   <meta name="theme-color" content="#000000">
-  <meta name="Description" content="Portfolio Progressive Web App">
+  <meta name="Description" content="Jacinto Design: Check out Web Development Projects and more!">
+  <meta name="Author" content="Jacinto Wong">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
   <style>*, ::after, ::before {box-sizing: border-box;}</style>
   <style>html, body { margin: 0; scroll-behavior: smooth; }</style>
   <!-- Social Media Tags -->
-  <meta property="og:title" content="Portfolio Project">
-  <meta property="og:description" content="Portfolio Progressive Web App">
-  <meta property="og:image" content="https://raw.githubusercontent.com/jacinto-design-course/AngularPWA/master/PortfolioProject/src/assets/img/social-media.jpg">
-  <meta property="og:url" content="https://jacinto-portfolio-project.firebaseapp.com">
+  <meta property="og:title" content="Jacinto Design">
+  <meta property="og:description" content="Progressive Web App Portfolio">
+  <meta property="og:image" content="https://raw.githubusercontent.com/JacintoDesign/jacinto-design-pwa/master/src/assets/img/facebook-share.png">
+  <meta property="og:url" content="https://jacinto.design">
   <meta name="twitter:card" content="summary_large_image">
   <!-- PWA Compat -->
-  <link rel="manifest" href="manifest.webmanifest">
-  <script async   src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js"
-    integrity="sha384-GOaSLecPIMCJksN83HLuYf9FToOiQ2Df0+0ntv7ey8zjUHESXhthwvq9hXAZTifA"
-    crossorigin="anonymous"></script>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.8/pwacompat.min.js"
+    integrity="sha384-uONtBTCBzHKF84F6XvyC8S0gL8HTkAPeCyBNvfLfsqHh+Kd6s/kaS4BdmNQ5ktp1"
+    crossorigin="anonymous"></script> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111285001-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111285001-1');
+  </script> 
 </head>
 <body>
   <app-root></app-root>
