@@ -270,8 +270,8 @@ video {
 
 /* Laptop - Bookmarks Bar */
 @media screen and (max-width: 1800px) {
-  .main-title { top: 26%; left: 150px; }
-  .card { top: 0; }
+  .main-title { top: 26%; left: 225px; }
+  .card { top: 4vh; }
   .card-text { font-size: 1.2rem; }
   .project-img img { height: 375px; width: 375px; }
 }
@@ -284,8 +284,7 @@ video {
 @media screen and (min-width: 1300px) and (max-width: 1799px) and (min-height: 800px) {
   .wrapper { overflow-x: hidden; }
   .main-title { top: 28%; }
-  .card { top: 4vh; }
-  #footer { height: 130px; align-items: unset; }
+  .card { top: 8vh; }
 }
 
 /* Laptop - 1366 x 768 - Bookmarks Bar */
