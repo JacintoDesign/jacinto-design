@@ -1,8 +1,8 @@
 {
-  "name": "Portfolio Project",
-  "short_name": "Portfolio",
+  "name": "Jacinto Design",
+  "short_name": "Jacinto",
   "theme_color": "#000000",
-  "background_color": "#fafafa",
+  "background_color": "#000000",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
