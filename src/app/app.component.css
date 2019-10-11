@@ -360,6 +360,7 @@ video {
   #video-background { height: 100vh; width: 100vw; }
   #video-background-2 { height: 100vh; width: 100vw; }
   .main-title { top: 230px; left: 40px; font-size: 3rem; text-align: center; opacity: 1; }
+  .custom-spacing { margin-left: 10px; }
   .mobile-main-title { display: initial; }
   .social-icons { top: 85%; }
   .social-icons fa-icon { font-size: 2.3rem; padding: 5px 10px; }
